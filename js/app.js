@@ -142,7 +142,7 @@ var ViewModel = function() {
 
         return function Content() {
 
-            var openWeatherMapUrl = "http://api.openweathermap.org/data/2.5/weather?";
+            var openWeatherMapUrl = "https://api.openweathermap.org/data/2.5/weather?";
             openWeatherMapUrl += $.param({
                 'lat': self.markerInfo()[x].lat,
                 'lon': self.markerInfo()[x].lng,
